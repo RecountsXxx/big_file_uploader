@@ -1,5 +1,5 @@
-<code>
-    class UploadController extends Controller
+```
+class UploadController extends Controller
 {
     public function upload(Request $request)
     {
@@ -30,4 +30,4 @@
         return response()->json(['success' => true]);
     }
 }
-</code>
+```
