@@ -1,4 +1,3 @@
-<pre>
     ```php
     class UploadController extends Controller
 {
@@ -32,4 +31,3 @@
     }
 }
                 ```
-</pre>
