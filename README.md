@@ -1,4 +1,4 @@
-<h2>Big file uploader you cand upload big files in server</h2>
+<h2>Big file uploader you can upload big files in server</h2>
 
 ## Laravel controller code and Blade template
 
