@@ -32,7 +32,7 @@ class UploadController extends Controller
         return response()->json(['success' => true]);
     }
 }
-
+## Laravel controller code and Blade template
 <form id="uploadForm" enctype="multipart/form-data">
     @csrf
     <input type="file" id="myfile" name="myfile">
