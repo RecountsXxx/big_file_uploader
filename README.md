@@ -1,4 +1,5 @@
-<h2>Laravel controller code</h2>
+## Laravel controller code and Blade template
+
 ```php
 class UploadController extends Controller
 {
@@ -31,9 +32,7 @@ class UploadController extends Controller
         return response()->json(['success' => true]);
     }
 }
-```
-<h2>Blade template</h2>
-```html
+
 <form id="uploadForm" enctype="multipart/form-data">
     @csrf
     <input type="file" id="myfile" name="myfile">
@@ -88,5 +87,3 @@ class UploadController extends Controller
         });
     });
 </script>
-```
-
