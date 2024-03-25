@@ -1,10 +1,4 @@
-<?php
-
-namespace App\Http\Controllers;
-
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage;
-
+```php
 class UploadController extends Controller
 {
     public function upload(Request $request)
@@ -36,3 +30,4 @@ class UploadController extends Controller
         return response()->json(['success' => true]);
     }
 }
+```
