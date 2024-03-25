@@ -1,5 +1,6 @@
-```
-class UploadController extends Controller
+<pre>
+    ```php
+    class UploadController extends Controller
 {
     public function upload(Request $request)
     {
@@ -30,4 +31,5 @@ class UploadController extends Controller
         return response()->json(['success' => true]);
     }
 }
-```
+                ```
+</pre>
